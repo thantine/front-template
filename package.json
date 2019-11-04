@@ -1,10 +1,11 @@
 {
-  "name": "helloFront",
+  "name": "front-template",
   "version": "1.0.0",
   "description": "Front-end boilerplate",
   "main": "gulpfile.js",
   "scripts": {
-    "dev": "gulp",
+    "start": "gulp",
+    "build-dev": "gulp build",
     "build": "gulp build --production && gulp rev && gulp revreplace",
     "reset": "rm -rf dist && rm -rf node_modules",
     "svg": "gulp svg"
