@@ -59,7 +59,7 @@ module.exports = {
       "!" + src + "/assets/img/sprite.svg",
       src + "/assets/img/**/*.{jpg,png,gif, svg}",
     ],
-    dist: assets_dist,
+    dist: assets_dist + "/images",
   },
 
   rootfiles: {
